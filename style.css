@@ -1,8 +1,12 @@
 body {
     background-color: #012e04;
-    margin-bottom: 20cm;
     overflow-x: hidden;
      }
+     * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
      .poppins-regular {
       font-family: "Poppins", sans-serif;
       font-weight: 400;
@@ -19,7 +23,7 @@ body {
     }
     .mesage {
     font-size: 15px;
-    color: #000000;
+    color: #ffffff;
     font-family: "Poppins";
     }
     .titulo {
@@ -27,24 +31,41 @@ body {
     font-family: "Poppins";
     color: rgb(255, 252, 252);
     }
+    .produtos {
+      position: relative;
+      top: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 300px;
+    }
+    .cardsSection1 {
+      position: relative;
+      top: 300px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 600px;
+    }
     .imagem {
       width: 250px;
     }
     .dg {
-      color: black;
+      color: rgb(255, 255, 255);
       font-size: 20px;
       font: bold; 
     }
-    .item1 {
-      position: relative;
-      float: left;
-      margin-left: 150px;
-      top: 100px;
-    }
-    .descricao {
-      margin-right: 200px;
-      position: relative;
-      left: 70px;
+    .card1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #027e0a;
+      width: 320px;
+      height: 500px;
+      border-radius: 50px
     }
     .preço {
       color: green;
@@ -53,9 +74,7 @@ body {
       font: bold;
     }
     .item2 {
-      position: relative;
-      top: 100px;
-      left: 50px;
+
     }
     .di2 {
       position: relative;
@@ -86,6 +105,7 @@ body {
     }
     .cabecario {
       position: fixed;
+      position: top;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -93,78 +113,61 @@ body {
       width: 100%;
       z-index: 1000;
     }
+    .ancor {
+      font-size: 20px;
+      font-style: bold;
+      color: rgb(0, 0, 0);
+  }
+footer {
+  position: relative;
+  top: 1000px;
+}
+    /*
     .ancor0 {
       position: relative;
-      left: 200px;
-    }
-    .ancor {
-        font-size: 20px;
-        color: red;
     }
     .ancor1 {
         position: relative;
-        left: 85px;
     }
     .ancor2 {
         position: relative;
-        left: 180px;
     }
     .item3 {
-        position: relative;
-        bottom: 302px;
-        left: 570px;
     }
     .di3 {
         position: relative;
-        left: 508px;
     }
     .ancor3 {
         position: relative;
         left: 545px;
     }
     .item4 {
-      position: relative;
-      bottom: 704px;
-      left: 1400px;
     }
     .di4 {
-      position: relative;
-      left: 50px;
+      
     }
     .ancor4 {
-      position: relative;
-      left: 80px;
+      
     }
     .ancor0 {
       font-size: 30px;
       color: green;
-      position: relative;
-      left: 80px;
-      top: 150px
-      ;
     }
     .image-container2 {
       width: 30px;
-      position: relative;
-      left: 1200px;
-      bottom: 200px;
       border-radius: 50%;
     }
     .image-container2 img {
       width: 40px;
     }
     .item5 {
-      position: relative;
-      left: 800px;
-      bottom: 600px;
     }
     .di5 {
-      position: relative;
-      left: 110px;
+
     }
     .ancor5 {
-      position: relative;
-      left: 90px;
+
     }
+    */
       
     
