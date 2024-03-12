@@ -1,0 +1,170 @@
+body {
+    background-color: #012e04;
+    margin-bottom: 20cm;
+    overflow-x: hidden;
+     }
+     .poppins-regular {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }    
+    .dirs {
+      position: relative;
+      right: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: center;
+    }
+    .mesage {
+    font-size: 15px;
+    color: #000000;
+    font-family: "Poppins";
+    }
+    .titulo {
+    font-size: 25px;
+    font-family: "Poppins";
+    color: rgb(255, 252, 252);
+    }
+    .imagem {
+      width: 250px;
+    }
+    .dg {
+      color: black;
+      font-size: 20px;
+      font: bold; 
+    }
+    .item1 {
+      position: relative;
+      float: left;
+      margin-left: 150px;
+      top: 100px;
+    }
+    .descricao {
+      margin-right: 200px;
+      position: relative;
+      left: 70px;
+    }
+    .preço {
+      color: green;
+      font-size: 25px;
+      font-style: italic;
+      font: bold;
+    }
+    .item2 {
+      position: relative;
+      top: 100px;
+      left: 50px;
+    }
+    .di2 {
+      position: relative;
+      left: 100px;
+    }
+    .preçoi1 {
+      position: relative;
+      left: 100px;
+    }
+    .preçoi2 {
+      position: relative;
+      left: 90px;
+    }
+    .logo {
+      width: 200px;
+    }
+    .image-container {
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+      border-radius: 50%;
+      position: relative;
+      left: 100px;
+      bottom: 250px;
+    }
+    .image-container img {
+      width: 200px;
+    }
+    .cabecario {
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: #012e04;
+      width: 100%;
+      z-index: 1000;
+    }
+    .ancor0 {
+      position: relative;
+      left: 200px;
+    }
+    .ancor {
+        font-size: 20px;
+        color: red;
+    }
+    .ancor1 {
+        position: relative;
+        left: 85px;
+    }
+    .ancor2 {
+        position: relative;
+        left: 180px;
+    }
+    .item3 {
+        position: relative;
+        bottom: 302px;
+        left: 570px;
+    }
+    .di3 {
+        position: relative;
+        left: 508px;
+    }
+    .ancor3 {
+        position: relative;
+        left: 545px;
+    }
+    .item4 {
+      position: relative;
+      bottom: 704px;
+      left: 1400px;
+    }
+    .di4 {
+      position: relative;
+      left: 50px;
+    }
+    .ancor4 {
+      position: relative;
+      left: 80px;
+    }
+    .ancor0 {
+      font-size: 30px;
+      color: green;
+      position: relative;
+      left: 80px;
+      top: 150px
+      ;
+    }
+    .image-container2 {
+      width: 30px;
+      position: relative;
+      left: 1200px;
+      bottom: 200px;
+      border-radius: 50%;
+    }
+    .image-container2 img {
+      width: 40px;
+    }
+    .item5 {
+      position: relative;
+      left: 800px;
+      bottom: 600px;
+    }
+    .di5 {
+      position: relative;
+      left: 110px;
+    }
+    .ancor5 {
+      position: relative;
+      left: 90px;
+    }
+      
+    
